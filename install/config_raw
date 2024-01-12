@@ -1,0 +1,38 @@
+<?php
+/**
+ * PanDownload 网页复刻版，PHP 语言版配置文件
+ * ！！！请勿修改本文件，如果手动修改后再在后台设置，可能导致config.php文件被清空！！！
+ *
+ * @author Yuan_Tuo <yuantuo666@gmail.com>
+ * @link https://imwcr.cn/
+ * @link https://space.bilibili.com/88197958
+ */
+require_once "./common/invalidCheck.php";
+
+const programVersion = '2.2.7';
+const Sitename = '<Sitename>';
+
+const Cookie = '<Cookie>';
+const SVIP_BDUSS = '<SVIP_BDUSS>';
+const SVIP_STOKEN = '<SVIP_STOKEN>';
+
+const IsCheckPassword = <IsCheckPassword>;
+const Password = '<Password>';
+const Footer = <<<'FoOtEr_Made_By_YuanTuo'
+<Footer>
+FoOtEr_Made_By_YuanTuo;
+const APP_ID = '250528';
+const DEBUG = false;
+
+const USING_DB = <USING_DB>;
+const DbConfig = array("servername" => "<servername>", "username" => "<username>", "DBPassword" => "<DBPassword>", "dbname" => "<dbname>", "dbtable" => "<dbtable>");
+
+const ADMIN_PASSWORD = '<ADMIN_PASSWORD>';
+const DownloadTimes = <DownloadTimes>;
+const DownloadLinkAvailableTime = <DownloadLinkAvailableTime>;
+const IsConfirmDownload = <IsConfirmDownload>;
+const SVIPSwitchMod = <SVIPSwitchMod>;
+
+const WECHAT_MOD = true;
+
+const DefaultLanguage = '<DefaultLanguage>';
